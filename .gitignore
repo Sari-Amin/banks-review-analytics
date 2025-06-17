@@ -19,3 +19,5 @@ Thumbs.db
 #Ignore Data
 *.csv
 /data
+
+config.py
