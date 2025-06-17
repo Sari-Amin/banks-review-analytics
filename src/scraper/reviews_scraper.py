@@ -36,7 +36,7 @@ class ReviewScraper:
             if not continuation_token:
                 break
 
-            time.sleep(sleep_time)  # be respectful to servers
+            time.sleep(sleep_time)  
 
         self.reviews_df = pd.DataFrame(all_reviews)
         return self.reviews_df
